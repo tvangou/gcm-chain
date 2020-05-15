@@ -138,7 +138,7 @@ app.get('/api/known-addresses', (req, res) => {
     
 });
 
-// List of known addresses
+// List of known balances
 app.get('/api/known-balances', (req, res) => {
     const addresses = addressMap;
 
