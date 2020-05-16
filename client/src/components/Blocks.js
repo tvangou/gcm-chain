@@ -29,6 +29,7 @@ class Blocks extends Component {
 
         return (
             <div>
+                <br />
                 <div><Link to='/'>Home</Link></div>
                 <h3>Blocks</h3>
                 <div>
