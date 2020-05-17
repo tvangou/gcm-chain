@@ -16,7 +16,7 @@
   },
   "resolutions": {
     "minimist": "1.2.5",
-    "mkdir": "0.5.3"
+    "mkdirp": "1.0.4"
   },
   "jest": {
     "testEnvironment": "node"
@@ -44,6 +44,7 @@
     "hex-to-binary": "^1.0.1",
     "history": "^4.10.1",
     "kind-of": "^6.0.3",
+    "mkdirp": "^1.0.4",
     "parcel-bundler": "^1.12.4",
     "pubnub": "^4.27.6",
     "react": "^16.13.1",
