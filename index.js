@@ -16,12 +16,8 @@ const REDIS_URL = isDevelopment ?
 // Root node address
 const DEFAULT_PORT = 3000;
 const ROOT_NODE_ADDRESS = isDevelopment ?
-`http://localhost:${DEFAULT_PORT}` :
-'https://warm-fjord-89136.herokuapp.com/';
-
-//isDevelopment ?
-    //`http://localhost:${DEFAULT_PORT}` :
-    //'https://cryptic-temple-77826.herokuapp.com/';
+    `http://localhost:${DEFAULT_PORT}` :
+    'https://cryptic-temple-77826.herokuapp.com/';
 
 const app = express();
 const blockchain = new Blockchain();
