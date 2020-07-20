@@ -141,11 +141,15 @@ app.get('/api/known-addresses', (req, res) => {
 // List of known balances
 app.get('/api/known-balances', (req, res) => {
     const addresses = addressMap;
+    const balanceMap = {};
 
-    res.json({ 
-        addresses,
-        balance: Wallet.calculateBalance({ chain: blockchain.chain, addresses })
-    });
+    for (let block of blockchain.chain) {
+        for (let balance of block.data) {
+
+        }
+    }
+    res.json(Object.keys(balanceMap));
+    
 });
 
 
